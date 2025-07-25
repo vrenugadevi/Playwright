@@ -1,0 +1,30 @@
+//Global variable declaration
+/*const browserName = "Chrome";
+
+function getBrowserName(browserName) {
+if(browserName === "Chrome"){
+    //rewriting the brwsername
+    var browserName = "Edge";
+    console.log("Inside if block", browserName);
+}
+}
+ 
+// Calling the function
+getBrowserName("Chrome");
+console.log("Outside block", browserName);*/
+
+// changing Var to let
+
+const browserName = "Chrome";
+
+function getBrowserName(browserName) {
+if(browserName === "Chrome"){
+    //rewriting the brwsername
+    let browserName = "Edge";
+    console.log("Inside if block", browserName);
+}
+}
+ 
+// Calling the function
+getBrowserName("Chrome");
+console.log("Outside if block", browserName);

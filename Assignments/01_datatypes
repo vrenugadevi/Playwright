@@ -1,0 +1,47 @@
+/*Numbers
+let phoneNumber = 7451238794;
+console.log(phoneNumber);
+console.log(typeof phoneNumber);
+
+Boolean
+let accountNumber = false;
+console.log(accountNumber);
+console.log(typeof accountNumber);
+
+undefined
+let Test;
+console.log(typeof Test);
+
+String
+let username = "renuvenu";
+let pwd = "test0001";
+console.log(username);
+console.log(pwd);
+console.log(typeof username);*/
+
+
+// Primitive Data Types
+
+let firstName = "Renu";
+console.log(firstName);
+console.log(typeof firstName);
+
+let companyName = "Sytem C Healthcare";
+console.log(companyName);
+console.log(typeof companyName);
+
+let mobileNumber = 784596235;
+console.log(mobileNumber);
+console.log(typeof mobileNumber);
+
+let isAutomation = true;
+console.log(isAutomation);
+console.log(typeof isAutomation);
+
+let hasPlaywright;
+console.log(typeof hasPlaywright);
+
+var landLineNumber=null;
+console.log(landLineNumber);//null--> value
+
+console.log(typeof landLineNumber)//object --> datatype//historical bug

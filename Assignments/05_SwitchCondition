@@ -1,0 +1,36 @@
+// Creating function for launch browser
+function launchBrowser(browserName){
+    if(browserName === "Chrome"){
+        console.log("Browser Name is Chrome ");
+    }
+        else{
+            console.log("Browser Name is not Chrome");
+        }
+    
+}
+
+// creating another function
+function runTests(testType){
+    switch(testType){
+    case "smoke":
+        console.log("Test type is Smoke");
+        break;
+
+    case "sanity":
+        console.log("Test type is Sanity");
+        break;
+
+    case "regression":
+        console.log("Test type is Regression");
+        break;
+
+    default:
+        console.log("Test type is Smoke");
+        break;
+
+    }
+
+}
+launchBrowser("Chrome");
+launchBrowser("Edge")
+runTests("smoke");

@@ -1,0 +1,35 @@
+// creating the function
+function evalGrade(score){
+
+    //variable declaration to store the result
+    let grade;
+
+    //Switch Condition to match if the case is true
+    switch(true){
+    case score > 85:
+        grade = "Outstanding";
+        break;
+
+    case  score>60 && score<=85:
+        grade = "Good";
+        break;
+
+     case  score>40 && score<=60:
+        grade = "Average";
+        break;
+
+    default:
+        grade = "Fail";
+        break;
+    }
+    //returning the result 
+    return grade
+}
+
+//Declare and Initialize the variable
+let Score = 50;
+
+//Calling the function and print the result
+let studentGrade = evalGrade(Score);
+console.log("Student Grade:", studentGrade);
+

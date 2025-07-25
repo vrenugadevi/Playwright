@@ -1,0 +1,16 @@
+function checkNumberType(number){
+    if (number > 0) {
+    return "Postive";
+  } else if (number < 0){
+    return "Negative";
+  }
+  else {
+    return "Neutral";
+  }
+
+}
+
+let myNumber = -4;
+
+let result = checkNumberType(myNumber);
+console.log("The Number is", result);
